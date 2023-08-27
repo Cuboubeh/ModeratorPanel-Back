@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25522f12-a8f0-4808-bb26-973dd6326d45" name="Changes" comment="Premier commit:&#10;  - Système de connexion à une base de données MYSQL&#10;  - Lors de la première connexion:&#10;    - une authentification via Discord est demandée, un code est généré et enregistré dans la base de données&#10;    - son type de compte est enregistré (crack/premium)&#10;  - Lors de la connexion des données sont enregistrés:&#10;    - Date de connexion&#10;    - Mise à jour du bool &quot;connecté&quot; dans la base de données&#10;    - Mise à jour de la ville du joueur&#10;  - Quand un joueur récupère un minerai non posé par un autre joueur en survie, ceci est enregistré dans la bdd&#10;  - Quand un joueur se déconnecte, plusieures informations sont mises à jour:&#10;    - Date de connexion&#10;    - Mise à jour du bool &quot;connecté&quot; dans la base de données">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +61,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="ProjectErrors" />
   </component>
@@ -80,6 +83,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.44827586",
@@ -138,7 +142,7 @@
       <updated>1693129404556</updated>
       <workItem from="1693129405865" duration="14928000" />
       <workItem from="1693149648942" duration="151000" />
-      <workItem from="1693149815083" duration="552000" />
+      <workItem from="1693149815083" duration="1004000" />
     </task>
     <task id="LOCAL-00001" summary="Premier commit:&#10;  - Système de connexion à une base de données MYSQL&#10;  - Lors de la première connexion:&#10;    - une authentification via Discord est demandée, un code est généré et enregistré dans la base de données&#10;    - son type de compte est enregistré (crack/premium)&#10;  - Lors de la connexion des données sont enregistrés:&#10;    - Date de connexion&#10;    - Mise à jour du bool &quot;connecté&quot; dans la base de données&#10;    - Mise à jour de la ville du joueur&#10;  - Quand un joueur récupère un minerai non posé par un autre joueur en survie, ceci est enregistré dans la bdd&#10;  - Quand un joueur se déconnecte, plusieures informations sont mises à jour:&#10;    - Date de connexion&#10;    - Mise à jour du bool &quot;connecté&quot; dans la base de données">
       <created>1693150306107</created>
@@ -147,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693150306107</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Premier commit:&#10;  - Système de connexion à une base de données MYSQL&#10;  - Lors de la première connexion:&#10;    - une authentification via Discord est demandée, un code est généré et enregistré dans la base de données&#10;    - son type de compte est enregistré (crack/premium)&#10;  - Lors de la connexion des données sont enregistrés:&#10;    - Date de connexion&#10;    - Mise à jour du bool &quot;connecté&quot; dans la base de données&#10;    - Mise à jour de la ville du joueur&#10;  - Quand un joueur récupère un minerai non posé par un autre joueur en survie, ceci est enregistré dans la bdd&#10;  - Quand un joueur se déconnecte, plusieures informations sont mises à jour:&#10;    - Date de connexion&#10;    - Mise à jour du bool &quot;connecté&quot; dans la base de données">
+      <created>1693150608012</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1693150608012</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
