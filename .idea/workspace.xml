@@ -4,23 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25522f12-a8f0-4808-bb26-973dd6326d45" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+    <list default="true" id="25522f12-a8f0-4808-bb26-973dd6326d45" name="Changes" comment="Premier commit:&#10;  - Système de connexion à une base de données MYSQL&#10;  - Lors de la première connexion:&#10;    - une authentification via Discord est demandée, un code est généré et enregistré dans la base de données&#10;    - son type de compte est enregistré (crack/premium)&#10;  - Lors de la connexion des données sont enregistrés:&#10;    - Date de connexion&#10;    - Mise à jour du bool &quot;connecté&quot; dans la base de données&#10;    - Mise à jour de la ville du joueur&#10;  - Quand un joueur récupère un minerai non posé par un autre joueur en survie, ceci est enregistré dans la bdd&#10;  - Quand un joueur se déconnecte, plusieures informations sont mises à jour:&#10;    - Date de connexion&#10;    - Mise à jour du bool &quot;connecté&quot; dans la base de données">
       <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/cuboubeh/moderatorpanel/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/cuboubeh/moderatorpanel/utils/AccountChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,11 +138,23 @@
       <updated>1693129404556</updated>
       <workItem from="1693129405865" duration="14928000" />
       <workItem from="1693149648942" duration="151000" />
-      <workItem from="1693149815083" duration="202000" />
+      <workItem from="1693149815083" duration="552000" />
     </task>
+    <task id="LOCAL-00001" summary="Premier commit:&#10;  - Système de connexion à une base de données MYSQL&#10;  - Lors de la première connexion:&#10;    - une authentification via Discord est demandée, un code est généré et enregistré dans la base de données&#10;    - son type de compte est enregistré (crack/premium)&#10;  - Lors de la connexion des données sont enregistrés:&#10;    - Date de connexion&#10;    - Mise à jour du bool &quot;connecté&quot; dans la base de données&#10;    - Mise à jour de la ville du joueur&#10;  - Quand un joueur récupère un minerai non posé par un autre joueur en survie, ceci est enregistré dans la bdd&#10;  - Quand un joueur se déconnecte, plusieures informations sont mises à jour:&#10;    - Date de connexion&#10;    - Mise à jour du bool &quot;connecté&quot; dans la base de données">
+      <created>1693150306107</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1693150306107</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Premier commit:&#10;  - Système de connexion à une base de données MYSQL&#10;  - Lors de la première connexion:&#10;    - une authentification via Discord est demandée, un code est généré et enregistré dans la base de données&#10;    - son type de compte est enregistré (crack/premium)&#10;  - Lors de la connexion des données sont enregistrés:&#10;    - Date de connexion&#10;    - Mise à jour du bool &quot;connecté&quot; dans la base de données&#10;    - Mise à jour de la ville du joueur&#10;  - Quand un joueur récupère un minerai non posé par un autre joueur en survie, ceci est enregistré dans la bdd&#10;  - Quand un joueur se déconnecte, plusieures informations sont mises à jour:&#10;    - Date de connexion&#10;    - Mise à jour du bool &quot;connecté&quot; dans la base de données" />
+    <option name="LAST_COMMIT_MESSAGE" value="Premier commit:&#10;  - Système de connexion à une base de données MYSQL&#10;  - Lors de la première connexion:&#10;    - une authentification via Discord est demandée, un code est généré et enregistré dans la base de données&#10;    - son type de compte est enregistré (crack/premium)&#10;  - Lors de la connexion des données sont enregistrés:&#10;    - Date de connexion&#10;    - Mise à jour du bool &quot;connecté&quot; dans la base de données&#10;    - Mise à jour de la ville du joueur&#10;  - Quand un joueur récupère un minerai non posé par un autre joueur en survie, ceci est enregistré dans la bdd&#10;  - Quand un joueur se déconnecte, plusieures informations sont mises à jour:&#10;    - Date de connexion&#10;    - Mise à jour du bool &quot;connecté&quot; dans la base de données" />
   </component>
 </project>
